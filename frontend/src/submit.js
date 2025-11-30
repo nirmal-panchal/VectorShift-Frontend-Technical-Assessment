@@ -86,7 +86,7 @@ export const SubmitButton = () => {
                 <div className="text-sm text-gray-600">
                     <span className="font-medium">Ready to submit?</span>
                     <span className="ml-2 text-gray-500">Review your pipeline before running</span>
-                </div>.
+                </div>
                 <button
                     type="submit"
                     disabled={nodes.length === 0 || isSubmitting}
