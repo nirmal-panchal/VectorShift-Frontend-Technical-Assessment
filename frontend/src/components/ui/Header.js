@@ -1,5 +1,4 @@
 import React from 'react';
-import { MdMenu } from 'react-icons/md';
 
 export const Header = () => {
 
@@ -9,7 +8,6 @@ export const Header = () => {
                 {/* Left section */}
                 <div className="flex items-center gap-4">
                     <div className="flex items-center gap-2">
-                        <MdMenu size={24} className="text-gray-700" />
                         <img src="/vs-logo.png" alt="VectorShift" className="h-8 w-8" />
                         <h1 className="text-lg font-bold text-gray-800">VectorShift</h1>
                     </div>
