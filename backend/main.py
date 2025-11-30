@@ -7,7 +7,7 @@ import os
 app = FastAPI()
 
 # Get allowed origins from environment variable or use defaults
-allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000").split(",")
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "https://vector-shift-frontend-technical-ass.vercel.app/", "http://localhost:3000").split(",")
 
 # Add CORS middleware (so frontend can call backend)
 app.add_middleware(
