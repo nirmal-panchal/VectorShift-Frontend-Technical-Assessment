@@ -10,6 +10,7 @@ export const Header = () => {
                 <div className="flex items-center gap-4">
                     <div className="flex items-center gap-2">
                         <MdMenu size={24} className="text-gray-700" />
+                        <img src="/vs-logo.png" alt="VectorShift" className="h-8 w-8" />
                         <h1 className="text-lg font-bold text-gray-800">VectorShift</h1>
                     </div>
                     <div className="h-6 w-px bg-gray-300"></div>

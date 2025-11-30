@@ -69,7 +69,7 @@ export const SubmitButton = () => {
 
             // Show error toast
             toast.error(
-                'Could not connect to backend.\nMake sure the server is running on port 8000.',
+                'Unable to analyze pipeline.\nPlease check your connection and try again.',
                 {
                     duration: 5000,
                 }
