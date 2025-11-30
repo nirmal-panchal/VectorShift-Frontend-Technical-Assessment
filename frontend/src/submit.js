@@ -23,7 +23,8 @@ export const SubmitButton = () => {
         const loadingToast = toast.loading('Analyzing pipeline...');
 
         try {
-            const res = await fetch('http://localhost:8000/pipelines/parse', {
+            const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+            const res = await fetch(`${apiUrl}/pipelines/parse`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
