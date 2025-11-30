@@ -14,8 +14,8 @@ This project is a complete implementation of the VectorShift Frontend Technical 
 
 ## 🚀 Live Demo
 
-- **Frontend**: [Deployed on Vercel](https://your-app.vercel.app)
-- **Backend**: [Deployed on Render](https://your-backend.onrender.com)
+- **Frontend**: [Deployed on Vercel](https://vector-shift-frontend-technical-ass.vercel.app/)
+- **Backend**: [Deployed on Render](https://vectorshift-frontend-technical-assessment-ic0g.onrender.com)
 
 ## 📁 Project Structure
 
